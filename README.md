@@ -33,6 +33,8 @@
 
 ## 四、页面截图
 
+![contents](./picture/picture10.png)
+
 ![contents](./picture/picture1.png)
 
 ![contents](./picture/picture2.png)
@@ -51,7 +53,7 @@
 
 ![contents](./picture/picture9.png)
 
-![contents](./picture/picture10.png)
+
 
 
 ## 五、浏览地址
