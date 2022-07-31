@@ -1,0 +1,114 @@
+server:
+  port: 8089
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+    threads:
+      max: 1000
+      min-spare: 30
+    max-swallow-size: -1
+  shutdown: graceful
+spring:
+  # 数据源
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/bill?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&allowMultiQueries=true
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    druid:
+      filter:
+        wall:
+          config:
+            multi-statement-allow: true
+    hikari:
+      max-lifetime: 60000
+      maximum-pool-size: 1000
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    # Redis
+  redis:
+    host: 47.101.155.194
+    password:
+    # 数据库索引 默认0
+    database: 0
+    port: 6379
+    # 超时时间 Duration类型 3秒
+    timeout: 3S
+    # 文件大小上传配置
+    servlet:
+      multipart:
+        max-file-size: 50MB
+        max-request-size: 50MB
+    jackson:
+      time-zone: GMT+8
+      serialization:
+        fail-on-empty-beans: false
+intercept:
+  verification:
+    - /zwz/login # 登录
+    - /zwz/user/regist # 注册
+  wechat:
+    - /zwz/user/smsLogin # 短信登录
+    - /zwz/user/resetByMobile # 手机重置
+    - /zwz/user/changeMobile # 更换定手机
+
+release:
+  authentication:
+    - /zwz/actuator/**
+    - /zwz/dictData/getByType/**
+    - /zwz/file/view/**
+    - /zwz/ws/**
+    - /zwz/setting/notice
+    - /zwz/user/regist
+    - /zwz/common/**
+    - /**/*.js
+    - /**/*.css
+    - /**/*.png
+    - /**/*.ico
+    - /zwz/test/**
+  limiting:
+    - /**/*.js
+    - /**/*.css
+    - /**/*.png
+    - /**/*.ico
+
+# Actuator
+management:
+  endpoint:
+    health:
+      show-details: always
+      status:
+        http-mapping:
+          DOWN: 200
+          OUT_OF_SERVICE: 200
+          FATAL: 200
+          UNKNOWN: 200
+  endpoints:
+    web:
+      base-path: /zwz/actuator/
+      exposure:
+        include: '*'
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+# 日志
+logging:
+  # 输出级别
+  level:
+    root: info
+  file:
+    path: logs
+  logback:
+    rollingpolicy:
+      max-history: 2000
+      max-file-size: 5MB
