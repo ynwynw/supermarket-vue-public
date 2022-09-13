@@ -33,25 +33,16 @@
 
 ## 四、页面截图
 
-![contents](./picture/picture10.png)
-
-![contents](./picture/picture1.png)
-
-![contents](./picture/picture2.png)
-
-![contents](./picture/picture3.png)
-
-![contents](./picture/picture4.png)
-
-![contents](./picture/picture5.png)
-
-![contents](./picture/picture6.png)
-
-![contents](./picture/picture7.png)
-
-![contents](./picture/picture8.png)
-
-![contents](./picture/picture9.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f0c23325fabb494a8e2e525ef328769e.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/fcc32509197d47f3aa31997ef3060330.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d2e225a8474543d495bf5f4ef4c12b75.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/de016ef9660345ba97b46f4c6f479f53.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/b57bfa9605274c89969c07bb8821941a.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/13dabe6861b54394bf88f7d98fffde0b.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d9f02145176c490083af0b5d78cea01e.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/0697ee643fca46bc8c0d74597921d5d0.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2bf86b6c70384e8dbbab092754219ab9.png#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/c08bb003ced34a9f862768ac84e5d1a2.png#pic_center)
 
 
 
