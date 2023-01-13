@@ -2,7 +2,14 @@
 
 **需要完整代码可以加qq  931708230 或者加微信  ynwwxid**
 
-#超市账单管理系统 #java web #java #毕业设计 #springboot #课程设计 #编程 #vue #mybatis #源代码 
+**博客地址：
+[https://blog.csdn.net/2303_76227485/article/details/128646507](https://blog.csdn.net/2303_76227485/article/details/128646507)**
+
+**视频演示：
+[B站视频演示]()**
+
+**毕业设计所有选题地址：
+[https://github.com/ynwynw/allProject](https://github.com/ynwynw/allProject)**
 
 ## 基于Vue和SpringBoot的超市账单管理系统
 
@@ -82,3 +89,7 @@ redis-server.exe redis.windows.conf
 5.导入数据库（bill.sql）
 
 6.使用idea导入back后端项目，maven方式导入，运行(默认1314端口)！
+
+**需要完整代码可以加qq  931708230 或者加微信 ynwwxid**
+
+**需要完整代码可以加qq  931708230 或者加微信  ynwwxid**
