@@ -27,8 +27,16 @@
 
 ## 二、所用技术
 
-前端采用View UI组件库，后端集成MyBatisPlus连接MySQL数据库，采用Spring Security做权限控制。    
+后端技术栈：
+- springboot
+- mybatisPlus
+- SpringSecurity
+- mysql
+- Java
 
+前端技术栈：
+- vue
+- View UI       
 
 ## 三、环境介绍
 
